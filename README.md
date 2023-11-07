@@ -9,12 +9,12 @@
  \/____/ \/___/  \/__,_ / \/____/ \/_/\/_/\/_/  \/___/  \/____/  \/_/
 ```
 
-Solutions for the challenges from [codember](https://codember.dev/), created by [@midudev](https://github.com/midudev/).
+Solutions for the challenges from [codember](https://codember.dev/).
 
 # 2023
 
 ## Challenges
 
-| Challenge |           Solución           |
-| :-------: | :---------------------------: |
-|    #01    | [JS](2023/challenge-01/index.js) |
+| Challenge |                             Solución                             |
+| :-------: | :---------------------------------------------------------------: |
+|    #01    | [JS](2023/challenge-01/index.js) / [PHP](2023/challenge-01/index.php) |
