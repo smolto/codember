@@ -1,18 +1,23 @@
 function miniCompiler(input) {
   const splitInput = input.split("")
   let value = 0
+  let showValue = ""
 
-  for (const action of splitInput) {
+  for (let i = 0; i < splitInput.length; i++) {
+    const action = splitInput[i]
     if(action === '#') value = value + 1
     if(action === '@') value = value - 1
     if(action === '*') value = value * value
-    if(action === '&') process.stdout.write(`${value}`);
+    if(action === '&') {
+      showValue = `${showValue}${value}`
+      if(i === splitInput.length - 1) console.log(`submit ${showValue}`);
+    }
   }
-
-  return value
 }
 
 const input = "&###@&*&###@@##@##&######@@#####@#@#@#@##@@@@@@@@@@@@@@@*&&@@@@@@@@@####@@@@@@@@@#########&#&##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@##@@&"
+console.time('challenge02')
 
 miniCompiler(input)
-console.log('')
+
+console.timeEnd('challenge02')
