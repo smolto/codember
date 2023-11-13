@@ -18,4 +18,4 @@ Solutions for the challenges from [codember](https://codember.dev/).
 | Challenge |                             Solución                             |
 | :-------: | :---------------------------------------------------------------: |
 |    #01    | [JS](2023/challenge-01/index.js) / [PHP](2023/challenge-01/index.php) |
-|    #02    |                   [JS](2023/challenge-02/index.js)                   |
+|    #02    | [JS](2023/challenge-02/index.js) / [PHP](2023/challenge-02/index.php) |
