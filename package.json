@@ -1,0 +1,23 @@
+{
+  "name": "codember",
+  "version": "1.0.0",
+  "description": "Codember 2023",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smolto/codember.git"
+  },
+  "author": "smolto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smolto/codember/issues"
+  },
+  "homepage": "https://github.com/smolto/codember#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
