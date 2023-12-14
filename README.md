@@ -21,3 +21,4 @@ Solutions for the challenges from [codember](https://codember.dev/).
 |    #02    | [JS](2023/challenge-02/index.js) / [PHP](2023/challenge-02/index.php) |
 |    #03    |                   [JS](2023/challenge-03/index.js)                   |
 |    #04    |                   [JS](2023/challenge-04/index.js)                   |
+|    #05    |                   [JS](2023/challenge-05/index.js)                   |
